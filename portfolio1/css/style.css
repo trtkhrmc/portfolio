@@ -1,0 +1,290 @@
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 60px;
+  }
+}
+
+.header-inner {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    padding: 0 10px;
+  }
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 179px;
+  height: 40px;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header-nav-list-item {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.header-nav-list-item:last-child {
+  padding-right: 0;
+}
+
+.header-nav-list-item a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main {
+  height: 551px;
+  background-image: url(../images/austin-distel-wawEfYdpkag-unsplash.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-ttl {
+  color: #FFFFFF;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .main-ttl {
+    font-size: 32px;
+  }
+}
+
+.main-copy-txt {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: block;
+  }
+}
+
+.article {
+  padding: 60px 0 88px;
+}
+
+.article .inner {
+  padding: 0 20px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-ttl {
+  text-align: center;
+  color: #333333;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 49px;
+}
+
+@media (max-width: 768px) {
+  .article-ttl {
+    font-size: 28px;
+  }
+}
+
+.article-box {
+  width: 310px;
+  height: 336px;
+  margin-right: 25px;
+  box-shadow: 0px 3px 6px #00000029;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .article-box {
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin-left: auto margin-right  auto;
+  }
+}
+
+.article-box:nth-child(3) {
+  margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .article-box:nth-child(3) {
+    margin-right: auto;
+  }
+}
+
+.article-box-inner-img img {
+  width: 100%;
+}
+
+.article-box-inner-text {
+  padding: 20px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .article-box-inner-text {
+    height: 140px;
+  }
+}
+
+.article-box-inner-text h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+@media (max-width: 768px) {
+  .article-box-inner-text h2 {
+    font-size: 16px;
+  }
+}
+
+.article time {
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .article time {
+    font-size: 14px;
+  }
+}
+
+.more-btn {
+  width: 310px;
+  height: 52px;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #EEEEEE;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 46px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 52px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.cta {
+  background-image: url(../images/tim-bogdanov-4uojMEdcwI8-unsplash.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-inner {
+  padding: 59px 0 44px;
+}
+
+.cta-ttl {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 49px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .cta-ttl {
+    font-size: 28px;
+  }
+}
+
+.cta-text {
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.8;
+  margin-bottom: 47px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .cta-text {
+    font-size: 14px;
+  }
+}
+
+.cta-contact-btn {
+  width: 210px;
+  height: 54px;
+  box-shadow: 0px 3px 6px #00000029;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 54px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #83032A;
+}
+
+.footer {
+  text-align: center;
+  background-color: #333333;
+  color: #fff;
+  padding: 32px 0;
+}
